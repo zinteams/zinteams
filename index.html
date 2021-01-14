@@ -2,29 +2,34 @@
 <html>
 <body>
   <h3>Git process headlines</h3>
-- No direct commits in "main" branch.
-- Whenever you start work on any issue. Check out a new branch per issue from "main".
-- Make sure every commit should contain the issue number at the start of the description or in detail section if there are multiple issues in single commit.
-- Put proper comments in commits. See examples below.
-- Pushed your changes in related branches. Do not leave the code in your machine when you end your day regardless your task is incomplete.
-  
-  <b>Example commit description when done.</b>
-
-MT-102
+  <section>
+  <ol>
+    <li>No direct commits in "main" branch.</li>
+<li>Whenever you start work on any issue. Check out a new branch per issue from "main".</li>
+<li>Make sure every commit should contain the issue number at the start of the description or in detail section if there are multiple issues in single commit.</li>
+<li>Put proper comments in commits. See examples below.</li>
+<li>Pushed your changes in related branches. Do not leave the code in your machine when you end your day regardless your task is incomplete.</li>
+  <ol>
+    </section>
+  <h4>Example commit description when done.</h4>
+  <section>
+MT-102<br>
 Completed: Implement bulk import feature.
+      </section>
+<h4>Example commit description when in progress.</h4>
 
-<b>Example commit description when in progress.</b>
-
-MT-1002
+<section>
+  MT-1002
 Completed: Implemented front-end UI, library to validate the file and data
 Pending: Parse records to import into the database.
-
-  <b>Example commit description when in progress and facing problem</b>
-
+        </section>
+        
+  <h4>Example commit description when in progress and facing problem</h4>
+<section>
 MT-1002
 Completed: Implemented front-end UI, library to validate the file and data
 Pending: Parse records to import into the database.
 Problem: Discussion required on how to perform bulk operations in one go.
-
+        </section>
 </body>
 </html>
